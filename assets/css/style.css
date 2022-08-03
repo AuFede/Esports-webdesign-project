@@ -176,10 +176,12 @@ body.active { overflow-y: hidden; }
 
 .nav-open-btn ion-icon { --ionicon-stroke-width: 40px; }
 
+/* Revisar por qué no funciona css navbar con el UL */
+
 .navbar {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -300px; 
   width: 100%;
   max-width: 300px;
   background: var(--raisin-black-2);
@@ -190,5 +192,10 @@ body.active { overflow-y: hidden; }
   transition: var (--transition-2);
 }
 
+.navbar.active {
+  right: 0;
+  visibility: visible;
+  transition: var(--transition-3);
+}  
 
 
