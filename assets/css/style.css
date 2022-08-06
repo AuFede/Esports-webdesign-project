@@ -126,7 +126,6 @@ body.active { overflow-y: hidden; }
 
 /* #CUSTOM FONT */
 
-
 /* Webfont: Refault-Italic */
 @font-face {
   font-family: 'Refault';
@@ -139,7 +138,6 @@ body.active { overflow-y: hidden; }
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
-
 
 
 /* #REUSED STYLE */

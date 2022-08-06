@@ -20,3 +20,4 @@ for (let i = 0; 1 < navElemArr.length; i++) {
         elemToggleFunc(document.body);
     })
 }
+
