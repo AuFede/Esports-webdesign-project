@@ -13,4 +13,10 @@ const overlay = document.querySelector("[data-overlay]");
 
 const navElemArr = [navOpenBtn, navCloseBtn, overlay];
 
-
+for (let i = 0; 1 < navElemArr.length; i++) {
+    navElemArr[i].addEventListener("click", function () {
+        elemToggleFunc(navbar);
+        elemToggleFunc(overlay);
+        elemToggleFunc(document.body);
+    })
+}
