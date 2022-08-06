@@ -230,4 +230,29 @@ body.active { overflow-y: hidden; }
 
 .navbar-link:is(:hover, :focus) { color: var(--orange); }
 
+.nav-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-link {
+  color: var(--orange);
+  font-size: 18px;  
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1; 
+  transition:  var(--transition-2);
+}
+
+.overlay.active {
+  background: hsla(0, 0%, 0%, 0.7);
+  pointer-events: all;
+  transition: var(--transition-3);
+}
 
